@@ -1,0 +1,211 @@
+name: bedtime_horror_story
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  google_mobile_ads: ^1.0.1
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^1.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+  assets:
+    - image/background.jpg
+    - image/icon.png
+    - image/DeepDive.png
+
+    - lib/asset/textfile/bedtime_story/Clap_Clap.txt
+    - lib/asset/textfile/bedtime_story/Clean_Kill.txt
+    - lib/asset/textfile/bedtime_story/Drinking_Water.txt
+    - lib/asset/textfile/bedtime_story/Family_Photo.txt
+    - lib/asset/textfile/bedtime_story/Fishy_Smell.txt
+    - lib/asset/textfile/bedtime_story/Frogs.txt
+    - lib/asset/textfile/bedtime_story/Gone_Fishing.txt
+    - lib/asset/textfile/Creepy_story/Family_Dinner.txt
+    - lib/asset/textfile/Creepy_story/Flickering_Lights.txt
+    - lib/asset/textfile/Creepy_story/childs_eye.txt
+    - lib/asset/textfile/Creepy_story/Man_in_the_Elevator.txt
+    - lib/asset/textfile/Creepy_story/Shadows_in_the_station.txt
+    - lib/asset/textfile/Creepy_story/Stop_Eating.txt
+    - lib/asset/textfile/Creepy_story/The undertaker.txt
+    - lib/asset/textfile/Creepy_story/The_Butcher_Shop.txt
+    - lib/asset/textfile/Creepy_story/The_Cannibal_Sisters.txt
+    - lib/asset/textfile/Creepy_story/The_Clown_Puppet.txt
+    - lib/asset/textfile/Creepy_story/The_Girl_in_the_photograph.txt
+    - lib/asset/textfile/Creepy_story/The_Keyhole.txt
+    - lib/asset/textfile/Creepy_story/The_Postcards.txt
+    - lib/asset/textfile/Creepy_story/Twin_boys.txt
+    - lib/asset/textfile/hallowen_story/Bobby.txt
+    - lib/asset/textfile/hallowen_story/Body_Pats_Hallpween_Story.txt
+    - lib/asset/textfile/hallowen_story/Bubble_Bath.txt
+    - lib/asset/textfile/hallowen_story/Fralse_teeth.txt
+    - lib/asset/textfile/hallowen_story/Girl_in_the_Mask.txt
+    - lib/asset/textfile/hallowen_story/Halloween_Tales.txt
+    - lib/asset/textfile/hallowen_story/Hallowen_Night.txt
+    - lib/asset/textfile/hallowen_story/Mary_Shaw.txt
+    - lib/asset/textfile/hallowen_story/Rat_Girl.txt
+    - lib/asset/textfile/hallowen_story/Tap_Tap_Tap.txt
+    - lib/asset/textfile/hallowen_story/The_Furry_Collar.txt
+    - lib/asset/textfile/hallowen_story/The_Halloween_Mask.txt
+    - lib/asset/textfile/hallowen_story/The_Leg.txt
+    - lib/asset/textfile/scary_story/All_you_can_eat.txt
+    - lib/asset/textfile/scary_story/Antique_Doll.txt
+    - lib/asset/textfile/scary_story/Balthazar.txt
+    - lib/asset/textfile/scary_story/Blood_Stains.txt
+    - lib/asset/textfile/scary_story/Car_Keys.txt
+    - lib/asset/textfile/scary_story/Handprint.txt
+    - lib/asset/textfile/scary_story/Human_Bones.txt
+    - lib/asset/textfile/scary_story/Imaginary_Friends.txt
+    - lib/asset/textfile/scary_story/Intruder_Alert.txt
+    - lib/asset/textfile/scary_story/Knock_Knock.txt
+    - lib/asset/textfile/scary_story/Mirror_Mirror.txt
+    - lib/asset/textfile/scary_story/Monkey_Dream.txt
+    - lib/asset/textfile/scary_story/Night_Owl.txt
+    - lib/asset/textfile/scary_story/Personal_Injury.txt
+    - lib/asset/textfile/scary_story/Piggyback.txt
+    - lib/asset/textfile/scary_story/Redang_Island.txt
+    - lib/asset/textfile/scary_story/Satanic_Spells.txt
+    - lib/asset/textfile/scary_story/Scary_Mirror_Stories.txt
+    - lib/asset/textfile/scary_story/School_Desk.txt
+    - lib/asset/textfile/scary_story/Tales_of_Horror.txt
+    - lib/asset/textfile/scary_story/The_Blackboard.txt
+    - lib/asset/textfile/scary_story/The_Candyman.txt
+    - lib/asset/textfile/scary_story/The_Cold_Man.txt
+    - lib/asset/textfile/scary_story/The_Cruiseship.txt
+    - lib/asset/textfile/scary_story/The_Dark_&_Lonely_Road.txt
+    - lib/asset/textfile/scary_story/The_First_Day_at_School.txt
+    - lib/asset/textfile/scary_story/The_Girl_and_Doll.txt
+    - lib/asset/textfile/scary_story/The_Hook.txt
+    - lib/asset/textfile/scary_story/The_Lady_with_the_Emerald_Ring.txt
+    - lib/asset/textfile/scary_story/The_Piggy_Back_Ride.txt
+    - lib/asset/textfile/scary_story/The_Police_Man.txt
+    - lib/asset/textfile/scary_story/The_Road_Death.txt
+    - lib/asset/textfile/scary_story/The_Shallow_Grave.txt
+    - lib/asset/textfile/scary_story/The_Stairs.txt
+    - lib/asset/textfile/scary_story/The_Thin_Man.txt
+    - lib/asset/textfile/scary_story/The_Wheelchair.txt
+    - lib/asset/textfile/scary_story/The_White_Death.txt
+    - lib/asset/textfile/true_story/Abigail.txt
+    - lib/asset/textfile/true_story/Bannister_Doll.txt
+    - lib/asset/textfile/true_story/Cloudy.txt
+    - lib/asset/textfile/true_story/Crying_Boy.txt
+    - lib/asset/textfile/true_story/Devils_Footprints.txt
+    - lib/asset/textfile/true_story/Dreams_and_Nightmares.txt
+    - lib/asset/textfile/true_story/Emily_Rose_True_Store.txt
+    - lib/asset/textfile/true_story/Ghost_Girl_in_Fire.txt
+    - lib/asset/textfile/true_story/Greenbrier_Ghost.txt
+    - lib/asset/textfile/true_story/Grinning.txt
+    - lib/asset/textfile/true_story/Haunted_Hotel_Room_310.txt
+    - lib/asset/textfile/true_story/Hunting_Knife.txt
+    - lib/asset/textfile/true_story/island_of_the_dolls.txt
+    - lib/asset/textfile/true_story/Kaimuki_House.txt
+    - lib/asset/textfile/true_story/Meat_Cleaver.txt
+    - lib/asset/textfile/true_story/Mudhouse_Mansion.txt
+    - lib/asset/textfile/true_story/Pawleys_Island.txt
+    - lib/asset/textfile/true_story/Robert_The_Doll.txt
+    - lib/asset/textfile/true_story/San_Cristobal.txt
+
+
+
+    # An image asset can refer to one or more resolution-specific "variants", see
+    # https://flutter.dev/assets-and-images/#resolution-aware.
+
+    # For details regarding adding assets from package dependencies, see
+    # https://flutter.dev/assets-and-images/#from-packages
+
+    # To add custom fonts to your application, add a fonts section here,
+    # in this "flutter" section. Each entry in this list should have a
+    # "family" key with the font family name, and a "fonts" key with a
+    # list giving the asset and other descriptors for the font. For
+    # example:
+  fonts:
+      - family: monsterfont
+        fonts:
+          - asset: lib/asset/fonts/monsterfont.ttf
+          # - asset: fonts/Schyler-Italic.ttf
+      #         style: italic
+      - family: quackerslate
+        fonts:
+          - asset: lib/asset/fonts/QuackerSlate.ttf
+      #       - asset: fonts/TrajanPro_Bold.ttf
+      #         weight: 700
+      - family: RobotoSlab
+        fonts:
+          - asset: lib/asset/fonts/RobotoSlab.ttf
+      # For details regarding fonts from package dependencies,
+      # see https://flutter.dev/custom-fonts/#from-packages
+
+    # To add assets to your application, add an assets section, like this:
+    # assets:
+    #   - images/a_dot_burr.jpeg
+    #   - images/a_dot_ham.jpeg
+
+    # An image asset can refer to one or more resolution-specific "variants", see
+    # https://flutter.dev/assets-and-images/#resolution-aware.
+
+    # For details regarding adding assets from package dependencies, see
+    # https://flutter.dev/assets-and-images/#from-packages
+
+    # To add custom fonts to your application, add a fonts section here,
+    # in this "flutter" section. Each entry in this list should have a
+    # "family" key with the font family name, and a "fonts" key with a
+    # list giving the asset and other descriptors for the font. For
+    # example:
+    # fonts:
+    #   - family: Schyler
+    #     fonts:
+    #       - asset: fonts/Schyler-Regular.ttf
+    #       - asset: fonts/Schyler-Italic.ttf
+    #         style: italic
+    #   - family: Trajan Pro
+    #     fonts:
+    #       - asset: fonts/TrajanPro.ttf
+    #       - asset: fonts/TrajanPro_Bold.ttf
+    #         weight: 700
+    #
+    # For details regarding fonts from package dependencies,
+    # see https://flutter.dev/custom-fonts/#from-packages
