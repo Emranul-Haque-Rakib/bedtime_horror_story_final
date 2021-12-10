@@ -1,6 +1,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:bedtime_horror_story/cs_one.dart';
+import 'admob_service.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 
 
@@ -19,6 +21,13 @@ class bedtime extends StatelessWidget {
           ),
         ),
 
+      ),
+      bottomNavigationBar: Container(
+        height: 50,
+        child: AdWidget(
+          key: UniqueKey(),
+          ad: AdMobService.createBannerAd()..load(),
+        ),
       ),
       body: listview(),
     );

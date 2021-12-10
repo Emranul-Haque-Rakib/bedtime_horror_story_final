@@ -192,7 +192,7 @@ class _mainclassState extends State<mainclass> {
             InkWell(
               onTap: () {
                 Navigator.push(
-                    context, MaterialPageRoute(builder: (cnx) => true_story()));
+                    context, MaterialPageRoute(builder: (cnx) => True_story()));
               },
               child: Container(
                 width: 280,

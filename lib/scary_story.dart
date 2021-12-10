@@ -15,7 +15,10 @@ class scary extends StatelessWidget {
         ),
         title: Text("Scary Story"),
       ),
+
+
       body: one(),
+
     );
   }
 }

@@ -1,5 +1,7 @@
 import 'package:bedtime_horror_story/cs_one.dart';
 import 'package:flutter/material.dart';
+import 'admob_service.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 class Creepy extends StatelessWidget {
   @override
@@ -14,6 +16,13 @@ class Creepy extends StatelessWidget {
           ),
         ),
         title: Text("Creepy Story"),
+      ),
+      bottomNavigationBar: Container(
+        height: 50,
+        child: AdWidget(
+          key: UniqueKey(),
+          ad: AdMobService.createBannerAd()..load(),
+        ),
       ),
       body: one(),
     );
